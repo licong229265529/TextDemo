@@ -6,5 +6,14 @@
     android:layout_height="match_parent"
     android:id="@+id/frame"
     tools:context=".ui.MainActivity">
-
+<ImageView
+    android:layout_width="@dimen/dp_100"
+    android:layout_height="@dimen/dp_100"
+    android:src="@mipmap/welcome_bottom2"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        />
 </FrameLayout>

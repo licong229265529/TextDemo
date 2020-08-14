@@ -45,9 +45,7 @@ public class MainActivity extends BaseActivity {
         A1Fragment a1Fragment = new A1Fragment();
         fragmentTransaction.add(R.id.frame, a1Fragment);
         fragmentTransaction.commit();
-
-
-
+        text3.setText("这是MainActivity的第三次      测试文字");
 
     }
 

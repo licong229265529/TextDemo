@@ -106,7 +106,7 @@ public class A1Fragment extends BaseMvpFragment<NullView, Nullpresenter> impleme
     };
     @Override
     public void processLogic() {
-
+        buttons.setText("测试提交代码");
 //getPresenter().getData(getContext(),"1", "", 1, "1", Constants.REFRESH);
 
 
